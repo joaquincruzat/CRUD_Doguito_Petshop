@@ -9,8 +9,8 @@ form.addEventListener("submit", (event) => {
   console.log(nombre, email);
   clientServices
     .createClient(nombre, email)
-    .then(
-      (response) => (window.location.href = "/pages/registro_completado.html")
-    )
+    .then(() => {
+      window.location.href = "/pages/registro_completado.html";
+    })
     .catch((error) => console.log(error));
 });
