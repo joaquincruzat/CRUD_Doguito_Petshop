@@ -1,0 +1,24 @@
+{
+  "perfil": [
+    {
+      "nombre": "Joaquín Cruzat",
+      "email": "joaquin@alura.com",
+      "id": 1
+    },
+    {
+      "nombre": "joaquin",
+      "email": "joaquin@gmail.com",
+      "id": "a180c911-4493-413b-a5b9-de411c2c9a01"
+    },
+    {
+      "nombre": "asd",
+      "email": "asd",
+      "id": "1684360a-d5b0-4f18-8531-06002a68e050"
+    },
+    {
+      "nombre": "joaquin",
+      "email": "iansf",
+      "id": "3f669575-c0d4-4e47-ade4-0a273a72c1e3"
+    }
+  ]
+}
