@@ -40,7 +40,14 @@ const createClient = (nombre, email) => {
   });
 };
 
+const deleteClient = (id) => {
+  return fetch(`http://localhost:3000/perfil/${id}`, {
+    method: "DELETE",
+  });
+};
+
 export const clientServices = {
   listaClientes,
   createClient,
+  deleteClient,
 };
